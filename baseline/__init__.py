@@ -1,0 +1,1 @@
+"""VgosDB Toolkit - Tools for reading and analyzing VLBI vgosDB data."""from .reader.core import VgosDBReaderfrom .reader.analysis_interface import AnalysisInterface  from .analysis.eop_estimation import EOPEstimator__version__ = "0.1.0"__all__ = ["VgosDBReader", "AnalysisInterface", "EOPEstimator"]
